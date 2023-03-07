@@ -9,7 +9,12 @@
     background-color: var(--backgroundColor);
     height: 100%;
     min-width: 100px;
-    overflow: hidden;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.aside::-webkit-scrollbar {
+    display: none;
 }
 
 @media (min-width: 768px) {
@@ -46,7 +51,6 @@
 .navbar {
     display: flex;
     flex-direction: column;
-    height: 100%;
 }
 
 .navbar-item {
@@ -105,6 +109,11 @@
     overflow-y: auto;
     padding: 30px;
     width: 100%;
+    scrollbar-width: none;
+}
+
+.main-games::-webkit-scrollbar {
+    display: none;
 }
 
 .games-grid {
