@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Arcade Classic';
+    src: url('/assets/fonts/ARCADECLASSIC.TTF');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --primaryColor: #303234;
+    --secondaryColor: #FFFFFF;
+    --backgroundColor: #1A1C1E;
+    --linearGradient: linear-gradient(#000000, #1A1C1E, #000000, #1A1C1E, #000000, #1A1C1E, #000000, #1A1C1E, #000000, #1A1C1E, #000000, #1A1C1E, #000000);
+    font-family: 'Arcade Classic', monospace;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primaryColor);
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondaryColor);
+    font-weight: bold;
+}
