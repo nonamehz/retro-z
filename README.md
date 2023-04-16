@@ -1,16 +1,11 @@
 # ![Retro-Z](https://imgur.com/4K4mUB5.png)
-# Retro-Z
-<table>
-<tr>
-<td>
-  Sitio web para jugar videojuegos retro usando EMULATORJS
-</td>
-</tr>
-</table>
 
+# Retro-Z
+
+Sitio web para jugar videojuegos retro usando EMULATORJS
 
 ## Demo
-Aquí una pueden visitar el sitio web desplegado en Netlify: https://retro-z.netlify.app
+Aquí pueden visitar el sitio web desplegado en Netlify: https://retro-z.netlify.app
 
 ## Creado con
 
